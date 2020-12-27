@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.framework      = 'CoreLocation'
   s.source_files   = "ios/**/*.{h,m}"
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
 
   s.dependency "React"
 end
